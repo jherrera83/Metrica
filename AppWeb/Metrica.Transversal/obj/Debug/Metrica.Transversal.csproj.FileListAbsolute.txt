@@ -1,0 +1,8 @@
+C:\Metrica\AppWeb\Metrica.Transversal\bin\Debug\Metrica.Transversal.dll
+C:\Metrica\AppWeb\Metrica.Transversal\bin\Debug\Metrica.Transversal.pdb
+C:\Metrica\AppWeb\Metrica.Transversal\bin\Debug\AutoMapper.dll
+C:\Metrica\AppWeb\Metrica.Transversal\obj\Debug\Metrica.Transversal.csprojAssemblyReference.cache
+C:\Metrica\AppWeb\Metrica.Transversal\obj\Debug\Metrica.Transversal.csproj.CoreCompileInputs.cache
+C:\Metrica\AppWeb\Metrica.Transversal\obj\Debug\Metrica.Transversal.csproj.CopyComplete
+C:\Metrica\AppWeb\Metrica.Transversal\obj\Debug\Metrica.Transversal.dll
+C:\Metrica\AppWeb\Metrica.Transversal\obj\Debug\Metrica.Transversal.pdb

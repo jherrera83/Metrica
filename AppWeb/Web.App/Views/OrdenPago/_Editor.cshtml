@@ -1,0 +1,70 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model Web.App.Models.OrdenPago.OrdenPagoEditorModelo
+
+<h4>Órden de Pago</h4>
+<hr />
+<br />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Grabar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @{
+                if (Model.ordenPago != null && Model.ordenPago.IdOrdenPago > 0)
+                {
+                    <input type="hidden" asp-for="ordenPago.IdOrdenPago" />
+                }
+            }
+
+            <div class="form-group">
+                <label asp-for="ordenPago.IdBanco" class="control-label"></label>
+                <select disabled  asp-for="ordenPago.IdBanco" required
+                        asp-items="@(new SelectList(Model.bancos,"IdBanco","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="ordenPago.IdBanco" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ordenPago.IdSucursal" class="control-label"></label>
+                <select asp-for="ordenPago.IdSucursal" required
+                        asp-items="@(new SelectList(Model.sucursales,"IdSucursal","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="ordenPago.IdSucursal" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ordenPago.IdEstadoPago" class="control-label"></label>
+                <select asp-for="ordenPago.IdEstadoPago" required
+                        asp-items="@(new SelectList(Model.estadosPago,"IdEstadoPago","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="ordenPago.IdMoneda" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ordenPago.IdMoneda" class="control-label"></label>
+                <select asp-for="ordenPago.IdMoneda" required
+                        asp-items="@(new SelectList(Model.monedas,"IdMoneda","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="ordenPago.IdMoneda" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="ordenPago.Monto" class="control-label"></label>
+                <input placeholder="Monto" asp-for="ordenPago.Monto" class="form-control" required maxlength="8" pattern="^\d+(?:\.\d{1,2})?$" />
+                <span asp-validation-for="ordenPago.Monto" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Grabar" class="btn btn-info" />
+                <input type="button" value="Cancelar" class="btn btn-danger" onclick="location.href='@Url.Action("Index", "OrdenPago")'" />
+            </div>
+        </form>
+    </div>
+</div>

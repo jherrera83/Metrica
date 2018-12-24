@@ -1,0 +1,47 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Web.App.Models.Banco.BancoIndexModelo
+
+<h4>Lista de Bancos</h4>
+<hr />
+<div style="float:right">
+    <input type="button" value="Nuevo" class="btn btn-info" onclick="location.href='@Url.Action("Nuevo", "Banco")'" />
+</div>
+<br />
+<div>
+    <table style="width:100%; border: 1px solid black;">
+        <thead style="height: 50px;border-bottom: 1px solid #ddd;">
+            <tr>
+                <td>Nombre</td>
+                <td>Dirección</td>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.bancos)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Direccion</td>
+                    <td>
+                       
+                        <a asp-action="Editar" asp-route-id="@item.IdBanco"
+                           class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i>  Editar
+                        </a>
+
+                        <a asp-action="Ver" asp-route-id="@item.IdBanco"
+                           class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i>  Eliminar
+                        </a>
+
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>

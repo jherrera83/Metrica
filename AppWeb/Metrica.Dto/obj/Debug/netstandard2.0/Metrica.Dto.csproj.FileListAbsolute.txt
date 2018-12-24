@@ -1,0 +1,16 @@
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\Metrica.Dto.deps.json
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\Metrica.Dto.dll
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\Metrica.Dto.pdb
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.dll
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.Configuration.dll
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.Security.dll
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.ComponentModel.DataAnnotations.xml
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.Configuration.xml
+C:\Metrica\AppWeb\Metrica.Dto\bin\Debug\netstandard2.0\System.Security.xml
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.csprojAssemblyReference.cache
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.csproj.CoreCompileInputs.cache
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.AssemblyInfoInputs.cache
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.AssemblyInfo.cs
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.csproj.CopyComplete
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.dll
+C:\Metrica\AppWeb\Metrica.Dto\obj\Debug\netstandard2.0\Metrica.Dto.pdb

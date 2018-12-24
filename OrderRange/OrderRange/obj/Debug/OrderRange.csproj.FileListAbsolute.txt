@@ -1,0 +1,13 @@
+C:\Metrica\OrderRange\OrderRange\bin\Debug\OrderRange.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\OrderRange.pdb
+C:\Metrica\OrderRange\OrderRange\obj\Debug\OrderRange.csprojAssemblyReference.cache
+C:\Metrica\OrderRange\OrderRange\obj\Debug\OrderRange.csproj.CoreCompileInputs.cache
+C:\Metrica\OrderRange\OrderRange\obj\Debug\OrderRange.dll
+C:\Metrica\OrderRange\OrderRange\obj\Debug\OrderRange.pdb
+C:\Metrica\OrderRange\OrderRange\bin\Debug\NUnit3.TestAdapter.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\nunit.engine.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\nunit.engine.api.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\Mono.Cecil.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\Mono.Cecil.Pdb.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\Mono.Cecil.Mdb.dll
+C:\Metrica\OrderRange\OrderRange\bin\Debug\Mono.Cecil.Rocks.dll

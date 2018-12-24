@@ -1,0 +1,5 @@
+C:\Metrica\AppWeb\Metrica.Entidades\bin\Debug\Metrica.Entidades.dll
+C:\Metrica\AppWeb\Metrica.Entidades\bin\Debug\Metrica.Entidades.pdb
+C:\Metrica\AppWeb\Metrica.Entidades\obj\Debug\Metrica.Entidades.csproj.CoreCompileInputs.cache
+C:\Metrica\AppWeb\Metrica.Entidades\obj\Debug\Metrica.Entidades.dll
+C:\Metrica\AppWeb\Metrica.Entidades\obj\Debug\Metrica.Entidades.pdb

@@ -1,0 +1,6 @@
+C:\Metrica\MoneyParts\MoneyParts\bin\Debug\MoneyParts.dll
+C:\Metrica\MoneyParts\MoneyParts\bin\Debug\MoneyParts.pdb
+C:\Metrica\MoneyParts\MoneyParts\obj\Debug\MoneyParts.csprojAssemblyReference.cache
+C:\Metrica\MoneyParts\MoneyParts\obj\Debug\MoneyParts.csproj.CoreCompileInputs.cache
+C:\Metrica\MoneyParts\MoneyParts\obj\Debug\MoneyParts.dll
+C:\Metrica\MoneyParts\MoneyParts\obj\Debug\MoneyParts.pdb

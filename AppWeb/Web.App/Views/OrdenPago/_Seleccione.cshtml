@@ -1,0 +1,38 @@
+﻿@model Web.App.Models.OrdenPago.OrdenPagoSeleccioneModelo
+
+
+<h4>Seleccione un Banco</h4>
+<hr />
+<br />
+<div>
+    <table style="width:100%; border: 1px solid black;">
+        <thead style="height: 50px;border-bottom: 1px solid #ddd;">
+            <tr>
+                <td>Nombre</td>
+                <td>Dirección</td>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.bancos)
+            {
+                <tr>
+                    <td>@item.Nombre</td>
+                    <td>@item.Direccion</td>
+                    <td>
+
+                        <a asp-action="Nuevo" asp-route-id="@item.IdBanco"
+                           class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i>  Seleccione
+                        </a>
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>
+<div style="float:right">
+    <input type="button" value="Cancelar" class="btn btn-danger" onclick="location.href='@Url.Action("Index", "OrdenPago")'" />
+</div>

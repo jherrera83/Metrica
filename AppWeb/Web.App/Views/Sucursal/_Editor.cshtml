@@ -1,0 +1,45 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+@model Web.App.Models.Sucursal.SucursalEditorModelo
+
+<h4>Sucursal</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Grabar">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            @{
+                if (Model.sucursal != null && Model.sucursal.IdSucursal > 0)
+                {
+                    <input type="hidden" asp-for="sucursal.IdSucursal" />
+                }
+            }
+
+            <div class="form-group">
+                <label asp-for="sucursal.IdBanco" class="control-label"></label>
+                <select asp-for="sucursal.IdBanco" required
+                        asp-items="@(new SelectList(Model.bancos,"IdBanco","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="sucursal.IdBanco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sucursal.Nombre" class="control-label"></label>
+                <input asp-for="sucursal.Nombre" class="form-control" maxlength="50"  placeholder="Nombre" required />
+                <span asp-validation-for="sucursal.Nombre" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="sucursal.Direccion" class="control-label"></label>
+                <input asp-for="sucursal.Direccion" class="form-control" maxlength="200" placeholder="Dirección" required />
+                <span asp-validation-for="sucursal.Direccion" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <input type="submit" value="Grabar" class="btn btn-info" />
+                <input type="button" value="Cancelar" class="btn btn-danger" onclick="location.href='@Url.Action("Index", "Sucursal")'" />
+            </div>
+        </form>
+    </div>
+</div>

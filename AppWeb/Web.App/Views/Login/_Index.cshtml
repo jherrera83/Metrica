@@ -1,0 +1,24 @@
+﻿
+
+@model Web.App.Models.Login.LoginIndexModelo
+
+<h4>Login</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Login">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="rol.IdRol" class="control-label"></label>
+                <select asp-for="rol.IdRol" required
+                        asp-items="@(new SelectList(Model.roles,"IdRol","Nombre"))">
+                    <option>Seleccione</option>
+                </select>
+                <span asp-validation-for="rol.IdRol" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-info" />
+            </div>
+        </form>
+    </div>
+</div>

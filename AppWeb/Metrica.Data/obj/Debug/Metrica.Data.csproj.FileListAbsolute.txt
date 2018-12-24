@@ -1,0 +1,12 @@
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Metrica.Data.dll
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Metrica.Data.pdb
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Metrica.Entidades.dll
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Microsoft.Practices.ObjectBuilder2.dll
+C:\Metrica\AppWeb\Metrica.Data\bin\Debug\Metrica.Entidades.pdb
+C:\Metrica\AppWeb\Metrica.Data\obj\Debug\Metrica.Data.csprojAssemblyReference.cache
+C:\Metrica\AppWeb\Metrica.Data\obj\Debug\Metrica.Data.csproj.CoreCompileInputs.cache
+C:\Metrica\AppWeb\Metrica.Data\obj\Debug\Metrica.Data.csproj.CopyComplete
+C:\Metrica\AppWeb\Metrica.Data\obj\Debug\Metrica.Data.dll
+C:\Metrica\AppWeb\Metrica.Data\obj\Debug\Metrica.Data.pdb

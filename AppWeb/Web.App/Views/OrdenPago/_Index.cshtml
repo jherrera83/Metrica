@@ -1,0 +1,56 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit http://go.microsoft.com/fwlink/?LinkID=397860
+*@
+
+
+@model Web.App.Models.OrdenPago.OrdenPagoIndexModelo
+
+<h4>Lista de Órdenes de Pago</h4>
+<hr />
+<div style="float:right">
+    <input type="button" value="Nuevo"  class="btn btn-info"  onclick="location.href='@Url.Action("Seleccione", "OrdenPago")'" />
+</div>
+<br />
+<div>
+    <table style="width:100%; border: 1px solid black;">
+        <thead style="height: 50px;border-bottom: 1px solid #ddd;">
+            <tr>
+                <td>Banco</td>
+                <td>Sucursal</td>
+                <td>Estado Pago</td>
+                <td>Moneda</td>
+                <td>Monto</td>
+                <td>Fecha Pago</td>
+                <td>Acciones</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ordenesPago)
+            {
+                <tr>
+                    <td>@item.NombeBanco</td>
+                    <td>@item.NombreSucursal</td>
+                    <td>@item.NombreEstadoPago</td>
+                    <td>@item.NombreMoneda</td>
+                    <td>@item.Monto</td>
+                    <td>@item.FechaPago</td>
+                    <td>
+
+                        <a asp-action="Editar" asp-route-id="@item.IdOrdenPago"
+                           class="btn btn-info">
+                            <i class="glyphicon glyphicon-pencil"></i>  Editar
+                        </a>
+
+                        <a asp-action="Ver" asp-route-id="@item.IdOrdenPago"
+                           class="btn btn-danger">
+                            <i class="glyphicon glyphicon-trash"></i>  Eliminar
+                        </a>
+
+                    </td>
+                </tr>
+            }
+
+        </tbody>
+    </table>
+
+</div>

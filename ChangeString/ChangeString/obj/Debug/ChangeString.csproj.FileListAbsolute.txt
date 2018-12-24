@@ -1,0 +1,6 @@
+C:\Metrica\ChangeString\ChangeString\bin\Debug\ChangeString.dll
+C:\Metrica\ChangeString\ChangeString\bin\Debug\ChangeString.pdb
+C:\Metrica\ChangeString\ChangeString\obj\Debug\ChangeString.csprojAssemblyReference.cache
+C:\Metrica\ChangeString\ChangeString\obj\Debug\ChangeString.csproj.CoreCompileInputs.cache
+C:\Metrica\ChangeString\ChangeString\obj\Debug\ChangeString.dll
+C:\Metrica\ChangeString\ChangeString\obj\Debug\ChangeString.pdb

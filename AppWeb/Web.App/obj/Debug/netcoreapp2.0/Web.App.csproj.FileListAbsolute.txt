@@ -1,0 +1,14 @@
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Web.App.deps.json
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Web.App.runtimeconfig.json
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Web.App.runtimeconfig.dev.json
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Web.App.dll
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Web.App.pdb
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Metrica.Dto.dll
+C:\Metrica\AppWeb\Web.App\bin\Debug\netcoreapp2.0\Metrica.Dto.pdb
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.csprojAssemblyReference.cache
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.csproj.CoreCompileInputs.cache
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.AssemblyInfoInputs.cache
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.AssemblyInfo.cs
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.csproj.CopyComplete
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.dll
+C:\Metrica\AppWeb\Web.App\obj\Debug\netcoreapp2.0\Web.App.pdb
